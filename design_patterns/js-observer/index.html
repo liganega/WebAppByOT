@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="Subject.js"></script>
+    <script src="Observer.js"></script>
+    <script src="WeatherData.js"></script>
+    <script src="CurrentConditionsDisplay.js"></script>
+    <script src="StatisticsDisplay.js"></script>
+    <script src="ForecastDisplay.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+    var weatherData = new WeatherData();
+    var currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+    var statisticsDisplay = new StatisticsDisplay(weatherData);
+    var forecastDisplay = new ForecastDisplay(weatherData);
+
+    weatherData.setMeasurements(80,64,30);
+    weatherData.setMeasurements(70,40,25);
+    weatherData.setMeasurements(88,32,19);
+
+
+</script>
+</html>

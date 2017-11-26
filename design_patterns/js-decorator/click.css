@@ -1,0 +1,74 @@
+* {
+    margin: 0 auto;
+    padding: auto;
+}
+body {
+    width: 1024px;
+}
+#content_wrap {
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+#btn_wrap {
+    width: 300px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+.radio_btn {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+
+.radio_btn:last-child {
+    border-right: 0;
+}
+
+.select {
+    color: #fff;
+    background: #000;
+}
+.menu {
+    width: 300px;
+    font-size: 12px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.menu ul li {
+    height: 20px;
+    line-height: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.menu ul li span {
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+    margin-right: 3px;
+    background: #bbb;
+    color: #fff;
+}
+
+.visible {
+    display: block;
+}
+
+.not_visible {
+    display: none;
+}

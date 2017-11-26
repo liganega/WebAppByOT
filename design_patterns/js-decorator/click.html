@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="click.css">
+    <title></title>
+</head>
+
+<body>
+<div id="content_wrap">
+    <div id="btn_wrap">
+        <div class="radio_btn select">1~10</div>
+        <div class="radio_btn">11~20</div>
+    </div>
+    <div id="content">
+        <div class="menu">
+            <ul>
+                <li><span>1</span>권선택</li>
+                <li><span>2</span>임병두</li>
+                <li><span>3</span>배현진</li>
+                <li><span>4</span>한국사능력검정시험</li>
+                <li><span>5</span>이국종</li>
+                <li><span>6</span>라붐</li>
+                <li><span>7</span>서유정</li>
+                <li><span>8</span>카카오 배틀그라운드</li>
+                <li><span>9</span>율희</li>
+                <li><span>10</span>귀순</li>
+            </ul>
+        </div>
+        <div class="menu not_visible">
+            <ul>
+                <li><span>11</span>대전시장</li>
+                <li><span>12</span>김연아</li>
+                <li><span>13</span>손석희</li>
+                <li><span>14</span>11월 14일 데이</li>
+                <li><span>15</span>솔빈</li>
+                <li><span>16</span>한국 세르비아</li>
+                <li><span>17</span>명서현</li>
+                <li><span>18</span>김장겸</li>
+                <li><span>19</span>오스트레일리아</li>
+                <li><span>20</span>니니즈</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var btn = $(".radio_btn");
+    var menu = $(".menu");
+
+    console.dir(btn);
+
+    btn.click(function() {
+        console.dir(this);
+        for(var i = 0; i < btn.length; i++) {
+            if(btn[i] == this) {
+                btn[i].classList.add("select");
+                menu[i].classList.remove("not_visible");
+            } else {
+                btn[i].classList.remove("select");
+                menu[i].classList.add("not_visible");
+            }
+        }
+    })
+</script>
+</body>
+</html>

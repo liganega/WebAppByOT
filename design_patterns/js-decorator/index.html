@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS - decorator, Coffee</title>
+    <script src="Beverage.js"></script>
+    <script src="CoffeeBean.js"></script>
+    <script src="BeverageOptions.js"></script>
+    <link href="common.css" rel="stylesheet">
+    <link href="object.css" rel="stylesheet">
+</head>
+<body>
+<!-- 기본적인 HTML + CSS 디자인 패턴 -->
+<div class="search_btn mt-10">버튼1</div>
+<div class="search_btn mt-20 color-red">버튼2</div>
+</body>
+<script>
+    //가장 기본적인 DarkRoast
+    var beverage = new DarkRoast();
+    console.log(beverage.getDescription()+" $"+beverage.getCost());
+
+    //Espresso + Soy
+    var beverage2 = new Espresso();
+    beverage2 = new Soy(beverage2);
+    console.log(beverage2.getDescription()+" $"+beverage2.getCost());
+
+    //HouseBlend + Milk + Whip + Mocha
+    var beverage3 = new HouseBlend();
+    beverage3 = new Milk(beverage3);
+    beverage3 = new Whip(beverage3);
+    beverage3 = new Mocha(beverage3);
+    console.log(beverage3.getDescription()+" $"+beverage3.getCost());
+</script>
+</html>

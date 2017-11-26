@@ -1,0 +1,102 @@
+.main-title {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 8px
+}
+
+.main-arrow {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    background: #f15748;
+    color: #FFF;
+    font-size: 8px;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    top: 50%;
+    margin-top: -7.5px
+}
+
+.orange-round {
+    width: 10px;
+    height: 10px;
+    border: 3px solid #f15748;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    margin-top: -5px
+}
+
+.search_btn {
+    width: 170px;
+    height: 30px;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 14px;
+    border: 2px solid #f15748;
+    border-radius: 15px;
+    text-align: center;
+    color: #555
+}
+
+.blue-green-btn {
+    background: #56c5d0;
+    color: #FFF;
+    font-weight: 700;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, .97), 0 5px 5px -5px rgba(0, 0, 0, .7)
+}
+
+.orange-btn {
+    background: #f15748;
+    color: #FFF;
+    font-weight: 700;
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, .97), 0 5px 5px -5px rgba(0, 0, 0, .7)
+}
+
+.sky-gray-btn {
+    background: #fff;
+    background: -moz-linear-gradient(top, #fff 0, #cceaec 50%, #fff 100%);
+    background: -webkit-linear-gradient(top, #fff 0, #cceaec 50%, #fff 100%);
+    background: linear-gradient(to bottom, #fff 0, #cceaec 50%, #fff 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    color: #7cccd7;
+    text-align: center;
+    border: 1px solid #cdcfce;
+    font-size: 12px
+}
+
+.gray-btn {
+    background: #fff;
+    background: -moz-linear-gradient(top, #fff 0, #aaa 50%, #fff 100%);
+    background: -webkit-linear-gradient(top, #fff 0, #aaa 50%, #fff 100%);
+    background: linear-gradient(to bottom, #fff 0, #aaa 50%, #fff 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    color: #666;
+    text-align: center;
+    border: 1px solid #aaa;
+    font-size: 12px
+}
+
+.simple-btn-gray {
+    background: #959595;
+    color: #FFF;
+    text-align: center
+}
+
+.simple-btn-blue-gray {
+    background: #56C5D0;
+    color: #FFF;
+    text-align: center
+}
+
+.simple-btn-orange {
+    background: #EF4130;
+    color: #FFF
+}
