@@ -3,4 +3,4 @@
 * 컴포넌트 패턴: https://youtu.be/-mJ64b3QE-4
 * 데코레이터 패턴: https://youtu.be/23F_HpPmu1k
 * 옵저버 패턴: https://youtu.be/E62B90KEF7A
-* MVC 패턴: (추가 예정)
+* MVC 패턴: https://youtu.be/OJzn0B-OpCs
